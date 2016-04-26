@@ -1,0 +1,40 @@
+<levels>
+	<section name="Beginner" sectionId="1">
+		<level id="1" name="Level 1" shortName="1" goldTime="8" silverTime="15" bronzeTime="99999">
+			<waveForms>
+				<wave frequency="20" amplitude="20" type="1" />
+			</waveForms>
+		</level>
+	    <level id="2" name="Level 2" shortName="2" goldTime="8" silverTime="15" bronzeTime="99999">
+			<waveForms>
+				<wave frequency="40" amplitude="38" type="1" />
+			</waveForms>
+		</level>
+		<level id="3" name="Level 3" shortName="3" goldTime="14" silverTime="25" bronzeTime="99999">
+			<waveForms>
+				<wave frequency="20" amplitude="40" type="0" />
+				<wave frequency="47" amplitude="20" type="0" />
+			</waveForms>
+		</level>
+		<level id="4" name="Level 4" shortName="4" goldTime="14" silverTime="25" bronzeTime="99999">
+			<waveForms>
+				<wave frequency="15" amplitude="40" type="0" />
+				<wave frequency="55" amplitude="20" type="0" />
+			</waveForms>
+		</level>
+		<level id="5" name="Level 5" shortName="5" goldTime="14" silverTime="25" bronzeTime="99999">
+			<waveForms>
+				<wave frequency="20" amplitude="40" type="0" />
+				<wave frequency="27" amplitude="20" type="0" />
+			</waveForms>
+		</level>
+		<level id="6" name="Level 6" shortName="6" goldTime="30" silverTime="50" bronzeTime="99999">
+			<waveForms>
+				<wave frequency="15" amplitude="40" type="0" />
+				<wave frequency="22" amplitude="20" type="0" />
+				<wave frequency="27" amplitude="20" type="0" />
+				<wave frequency="50" amplitude="20" type="0" />
+			</waveForms>
+		</level>
+			</section>
+</levels>

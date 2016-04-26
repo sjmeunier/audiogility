@@ -1,0 +1,54 @@
+{
+	com.badlogic.gdx.graphics.g2d.BitmapFont: { 
+		default-font: { file: default.fnt },
+		freestyle-font: { file: freestyle.fnt },
+		ocr-font: { file: ocr.fnt },
+		lcd-font: { file: lcd.fnt } 
+	},
+	com.badlogic.gdx.graphics.Color: {
+        green: { a: 1, b: 0, g: 1, r: 0 },
+        white: { a: 1, b: 1, g: 1, r: 1 },
+        red: { a: 1, b: 0, g: 0, r: 1 },
+        black: { a: 1, b: 0, g: 0, r: 0 }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+        default: { down: default-round-down, up: default-round },
+        toggle: { down: default-round-down, checked: default-round-down, up: default-round }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+        default: { down: default-round-down, up: default-round, font: ocr-font, fontColor: white },
+        gold: { down: levelbutton-gold, up: levelbutton-gold, font: ocr-font, fontColor: white },
+        silver: { down: levelbutton-silver, up: levelbutton-silver, font: ocr-font, fontColor: white },
+        bronze: { down: levelbutton-bronze, up: levelbutton-bronze, font: ocr-font, fontColor: white },
+        enabled: { down: levelbutton-enabled, up: levelbutton-enabled, font: ocr-font, fontColor: white },
+        locked: { down: levelbutton-locked, up: levelbutton-locked, font: ocr-font, fontColor: white },
+        toggle: { down: default-round-down, up: default-round, checked: default-round-down, font: ocr-font, fontColor: white, downFontColor: red }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+        default: { titleFont: default-font, background: default-window, titleFontColor: white }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+        default: { background: default-slider, knob: default-slider-knob },
+        black: { background: default-slider, knob: sliderbutton-black },
+        blackside: { background: default-slider, knob: sliderbutton-black-side },
+        red: { background: default-slider, knob: sliderbutton-red },
+        blue: { background: default-slider, knob: sliderbutton-blue },
+        green: { background: default-slider, knob: sliderbutton-green },
+        yellow: { background: default-slider, knob: sliderbutton-yellow }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+        default: { font: ocr-font, fontColor: white },
+        freestyle: { font: freestyle-font, fontColor: black },
+        lcd: { font: lcd-font, fontColor: green },
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+        default: { selection: selection, background: textfield, font: default-font, fontColor: white, cursor: cursor }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+        default: { checkboxOn: check-on, checkboxOff: check-off, font: default-font, fontColor: white }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+        default: { fontColorUnselected: white, selection: default-rect-pad, fontColorSelected: white, font: default-font }
+	}
+}
+

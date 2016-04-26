@@ -1,0 +1,50 @@
+
+pages.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+game-screen/background
+  rotate: false
+  xy: 1, 1
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+game-screen/powerbutton
+  rotate: false
+  xy: 803, 441
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+
+pages2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+main-screen/background
+  rotate: false
+  xy: 1, 155
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+main-screen/audiogilitylogo
+  rotate: false
+  xy: 1, 1
+  size: 500, 152
+  orig: 500, 152
+  offset: 0, 0
+  index: -1
+
+pages3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+splash-screen/splash-screen
+  rotate: false
+  xy: 1, 1
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
